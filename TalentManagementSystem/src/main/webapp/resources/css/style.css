@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-color{
+    background: #EFB603;
+}
+
+nav * {
+    color: #000;
+    font-weight: bold;
+}
+
+.event-card{
+    color: #DE6A27;
+    border: 2px solid #DE6A27;
+    display: inline-block;
+    margin: 2.3rem;
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(239,182,3,0.7);
+    -moz-box-shadow: 5px 5px 0px 0px rgba(239,182,3,0.7);
+    box-shadow: 5px 5px 0px 0px rgba(239,182,3,0.7);
+}
+
+.talent-photo{
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+footer *{
+    line-height: 50px;
+}
+footer i{
+    width: 35px;
+    height: 35px;
+    padding-top: 0.5rem;
+    margin-right: 10px;
+    text-align: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: lightskyblue;
+}
+
+.submit-assignment{
+    width: 400px;
+    height: 200px;
+    background: url("assets/img/student1.jpg");
+    background-size: cover;
+}
+
+.schedule{
+    width: 400px;
+    height: 200px;
+    background: url("assets/img/student2.jpg");
+    background-size: cover;
+}
+
+.evaluation{
+    width: 400px;
+    height: 200px;
+    background: url("assets/img/student3.png");
+    background-size: cover;
+}
+
+.manage-trainer{
+    width: 400px;
+    height: 200px;
+    background: url("assets/img/ManageTrainers.jpg");
+    background-size: cover;
+}
+
+.manage-courses{
+    width: 400px;
+    height: 200px;
+    background: url("assets/img/ManageCourse.jpg");
+    background-size: cover;
+}
+
+.evaluate-student{
+    width: 400px;
+    height: 200px;
+    background: url("assets/img/EvaluateStudent.jpg");
+    background-size: cover;
+}
+
+.manage-project-team{
+    width: 400px;
+    height: 200px;
+    background: url("assets/img/ManageProject.jpg");
+    background-size: cover;
+}
+
+.submit-assignment-photo, .schedule-photo, .evaluation-photo, .manage-trainer-photo, .manage-courses-photo, .evaluate-student-photo, .manage-project-team-photo{
+    margin-top: 100px;
+}
+
+.submit-assignment-text, .schedule-text, .evaluation-text, .manage-trainer-text, .manage-courses-text, .evaluate-student-text, .manage-project-team-text{
+    color: #EFB603;
+    font-weight: bolder;
+    font-size: 1.2em;
+    -webkit-text-stroke: medium #000;
+}
+
+.submit-assignment:hover, .schedule:hover, .evaluation:hover, .manage-trainer:hover, .manage-courses:hover, .evaluate-student:hover, .manage-project-team:hover {
+    opacity: 0.8;
+    -webkit-transition: prop 3ms;
+    -moz-transition: prop 3ms;
+    -ms-transition: prop 3ms;
+    -o-transition: prop 3ms;
+    transition: prop 3ms;
+}
